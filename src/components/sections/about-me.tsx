@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import MohsinFullPose from '/public/images/full-pose.jpg';
+import MohsinFullPose from '/public/images/person-standing.jpg';
 import Tag from '@/components/data-display/tag';
 import Container from '@/components/layout/container';
 import Typography from '@/components/general/typography';
