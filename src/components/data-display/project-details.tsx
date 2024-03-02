@@ -51,7 +51,7 @@ const ProjectDetails = ({
         <Typography variant="subtitle" className="font-semibold text-gray-900">
           {name}
         </Typography>
-        <Typography>{description}</Typography>
+        <Typography className='text-justify' >{description}</Typography>
         <div className="flex flex-wrap gap-2">
           {technologies?.map((technology, index) => (
             <Tag key={index} label={technology} />

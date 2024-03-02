@@ -26,8 +26,8 @@ import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
 import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectWingie from '/public/images/project-wingie.png';
+import ProjectPGPrint from '/public/images/project-pgprint.png';
+import ProjectUpperhand from '/public/images/project-upperhand.png';
 import ProjectPepehousing from '/public/images/project-pepehousing.png';
 
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
@@ -210,28 +210,28 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
+    name: 'Upperhand',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
-    url: 'https://www.wingie.com',
-    previewImage: ProjectWingie,
+      'Upper Hand was created by sports coaches to make sports training easier. Whether you conduct private and group lessons, host camps or clinics, or coach a team, Upper Hand allows you to configure the software to cater to your business offerings.',
+    url: 'https://upperhand.com',
+    previewImage: ProjectUpperhand,
     technologies: [
       'React',
       'Typescript',
-      'React Bootstrap',
-      'Firebase',
-      'Express.js',
-      'PostgreSQL',
-      'Styled Components',
+      'Material UI',
       'Redux',
+      'React Bootstrap',
+      'Styled Components',
+      'Immutable Js',
+      'Ruby on Rails'
     ],
   },
   {
-    name: 'Fiskil',
+    name: 'OntrackSend',
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
+      "At PG Print, a prominent printing company recognized for its dedication to excellence and inventive solutions, my involvement centered around refining Ontrack Send. This product played a pivotal role in streamlining order placement and tracking, aligning with PG Print's commitment to leveraging modern technologies for superior printing solutions.",
+    url: 'https://www.pgprint.com/',
+    previewImage: ProjectPGPrint,
     technologies: [
       'React',
       'Next.js',
@@ -240,12 +240,8 @@ export const PROJECTS: ProjectDetails[] = [
       'Material UI',
       'Redux Toolkit',
       'React Query',
-      'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
       'Storybook',
+      'monorepo'
     ],
   },
   {
