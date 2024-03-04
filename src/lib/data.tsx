@@ -1,4 +1,4 @@
-import { Github, Twitter, Figma } from 'lucide-react';
+import { Github, Twitter, Figma, LinkedinIcon, Facebook } from 'lucide-react';
 
 import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
@@ -75,12 +75,12 @@ export const SOCIAL_LINKS = [
     url: 'https://github.com/m-mohsin-iqbal',
   },
   {
-    icon: Twitter,
-    url: '#',
+    icon: LinkedinIcon,
+    url: 'https://www.linkedin.com/in/m-mohsin-iqbal',
   },
   {
-    icon: Figma,
-    url: '#',
+    icon: Facebook,
+    url: 'https://www.facebook.com/muhammad.mohsan.108',
   },
 ];
 
@@ -268,7 +268,7 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarKrisztian,
     title: 'Founder - inboxgenie.io',
     testimonial:
-      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Sagar and will rehire in the future for Frontend development.',
+      'Job well done! I am really impressed. He is very very good at what he does:) I would recommend Mohsin and will rehire in the future for Frontend development.',
   },
   {
     personName: 'Eugen Esanu',
@@ -282,6 +282,6 @@ export const TESTIMONIALS: TestimonialDetails[] = [
     personAvatar: AvatarDummy,
     title: 'Freelancer',
     testimonial:
-      'Sagar was extremely easy and pleasant to work with and he truly cares about the project being a success. Sagar has a high level of knowledge and was able to work on my MERN stack application without any issues.',
+      'Mohsin was extremely easy and pleasant to work with and he truly cares about the project being a success. Mohsin has a high level of knowledge and was able to work on my MERN stack application without any issues.',
   },
 ];

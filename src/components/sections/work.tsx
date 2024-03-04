@@ -6,7 +6,7 @@ import Container from '@/components/layout/container';
 import prisma from '../../../lib/prisma';
 
 const  WorkSection = async () => {
-  const projects = await prisma.project.findMany(); 
+  const projects = await prisma.projects.findMany(); 
   return (
     <Container id="work">
       <div className="flex flex-col items-center gap-4">
