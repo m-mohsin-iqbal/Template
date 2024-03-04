@@ -10,7 +10,7 @@ datasource db {
     directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
 
-model Project {
+model Projects {
     id           Int      @id @default(autoincrement())
     name         String
     description  String
