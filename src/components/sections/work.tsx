@@ -3,8 +3,10 @@ import ProjectDetails from '@/components/data-display/project-details';
 import Tag from '@/components/data-display/tag';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
+import prisma from '../../../lib/prisma';
 
-const WorkSection = () => {
+const  WorkSection = async () => {
+  const projects = await prisma.project.findMany(); 
   return (
     <Container id="work">
       <div className="flex flex-col items-center gap-4">
@@ -16,9 +18,9 @@ const WorkSection = () => {
         </Typography>
       </div>
 
-      {PROJECTS?.map((project, index) => (
+      {projects.map((project, index) => (
         <ProjectDetails
-          key={index}
+          key={project.id}
           {...project}
           layoutType={index % 2 === 0 ? 'default' : 'reverse'}
         />

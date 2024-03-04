@@ -6,6 +6,7 @@ import './globals.css';
 import Header from '@/components/layout/header';
 import { Providers } from '@/lib/providers';
 import Footer from '@/components/layout/footer';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -84,6 +85,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
         <Providers>
           <Header />
+          <SpeedInsights/>
           <main className="flex min-h-screen w-full flex-col">{children}</main>
           <Footer />
         </Providers>

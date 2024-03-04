@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import { ExternalLink } from 'lucide-react';
 
@@ -37,6 +38,8 @@ const ProjectDetails = ({
             alt={`${name} preview`}
             className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
             style={{ objectFit: 'cover' }}
+            width={600}
+            height={400}
           />
         </Link>
       </div>
