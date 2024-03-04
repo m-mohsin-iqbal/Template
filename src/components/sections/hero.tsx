@@ -27,16 +27,16 @@ const HeroSection = () => {
         <div className="flex max-w-3xl flex-grow flex-col justify-center gap-8 md:order-first md:items-start md:justify-center 2xl:gap-12">
           <div className="flex flex-col gap-2">
             <Typography variant="h1">
-              Hi, I&apos;m Mohsin{' '}
+              Hi, I&apos;m Mohsin Iqbal
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
-            <Typography>
+            <Typography className='text-justify'>
             I&apos;m a highly skilled Full-stack developer, specializing in the development of modern web applications with a primary focus on frontend excellence using React, Next.js, and TypeScript. My proficiency extends to designing complex UI components, managing data flows through Redux/Flux, and optimizing performance for seamless user experiences.
             </Typography>
-            <Typography>
+            <Typography className='text-justify'>
             In addition to my frontend expertise, I bring comprehensive knowledge of AWS cloud services and deployment strategies, including proficiency in setting up CI/CD pipelines. My hands-on experience encompasses backend development using Node.js, Express, and Mongoose to construct high-performing server-side APIs.
             </Typography>
-            <Typography>
+            <Typography className='text-justify'>
             Furthermore, I possess advanced skills in Python web scraping using Scrapy, showcasing my expertise in data extraction. Beyond technical capabilities, I have a keen understanding of customer business needs, allowing me to propose effective business solutions that align with their objectives. My ability to bridge the gap between technical excellence and business requirements ensures a holistic and impactful approach to web development.
             </Typography>
           </div>

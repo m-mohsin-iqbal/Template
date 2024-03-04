@@ -20,11 +20,10 @@ import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
-import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
-import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
+import LogoTechverx from '/public/images/logos/logo-techverx.svg';
+import LogoTechverxLight from '/public/images/logos/logo-techverx-light.svg';
+import LogoBdaLight from '/public/images/logos/logo-bda-light.svg';
+import LogoBda from '/public/images/logos/logo-bda.svg';
 
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
 import AvatarEugen from '/public/images/avatar-eugen.png';
@@ -171,23 +170,25 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
+    logo:LogoTechverxLight,
+    darkModeLogo: LogoTechverx,
+    logoAlt: 'Techverx logo',
+    position: 'Software Engineer',
+    startDate: new Date(2022, 4),
     currentlyWorkHere: true,
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
+      'Worked for various clients like Upperhand , PGPrint , Lightpoint.',
       'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+    
     ],
   },
   {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
-    logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    logo: LogoBdaLight,
+    darkModeLogo: LogoBda,
+    logoAlt: 'BDA logo',
+    position: 'Software Enginner',
+    startDate: new Date(2020, 9),
+    endDate: new Date(2022, 4),
     summary: [
       'Acted as team lead in different projects.',
       'Brainstormed new ideas & gathered requirements for internal projects.',
@@ -195,15 +196,6 @@ export const EXPERIENCES: ExperienceDetails[] = [
       'Worked on enterprise-level projects for a variety of clients.',
       'Handled sprint planning & task distribution.',
     ],
-  },
-  {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
   },
 ];
 
