@@ -26,7 +26,7 @@ const ProjectDetails = ({
       {/* Image */}
       <div
         className={mergeClasses(
-          'flex items-center justify-center border-gray-100 bg-gray-50 p-8 dark:bg-gray-200 max-md:rounded-t-xl md:w-1/2 lg:p-12',
+          'flex items-center justify-center border-gray-100 bg-gray-50 p-8 dark:bg-gray-200 max-md:rounded-t-xl md:w-1/2 lg:p-8',
           layoutType === 'default'
             ? 'md:rounded-l-xl md:border-r'
             : 'md:order-last md:rounded-r-xl md:border-l'
@@ -47,7 +47,7 @@ const ProjectDetails = ({
       {/* Content */}
       <div
         className={mergeClasses(
-          'flex flex-col gap-6 p-8 md:w-1/2 lg:p-12',
+          'flex flex-col gap-6 p-8 md:w-1/2 lg:p-8',
           layoutType === 'default' ? '' : 'md:order-first'
         )}
       >
@@ -63,10 +63,10 @@ const ProjectDetails = ({
         <Link
           href={url}
           noCustomization
-          className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
+          className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500 flex items-center"
           externalLink
         >
-          <ExternalLink />
+          <Typography >Live link</Typography><ExternalLink className='ml-2' />
         </Link>
       </div>
     </Card>

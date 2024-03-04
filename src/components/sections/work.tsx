@@ -1,4 +1,3 @@
-import { PROJECTS } from '@/lib/data';
 import ProjectDetails from '@/components/data-display/project-details';
 import Tag from '@/components/data-display/tag';
 import Typography from '@/components/general/typography';
