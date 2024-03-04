@@ -1,4 +1,4 @@
-import { Metadata } from 'next';
+  import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
@@ -29,10 +29,6 @@ export const metadata: Metadata = {
     'Node.js Developer'
   ],
   creator: 'Mohsin Iqbal',
-  themeColor: [
-    { media: '(prefers-color-scheme: light)', color: 'white' },
-    { media: '(prefers-color-scheme: dark)', color: 'black' },
-  ],
   openGraph: {
     type: 'website',
     url,
@@ -58,6 +54,11 @@ export const metadata: Metadata = {
     apple: '/apple-touch-icon.png',
   },
 };
+
+export const viewport={ themeColor: [
+  { media: '(prefers-color-scheme: light)', color: 'white' },
+  { media: '(prefers-color-scheme: dark)', color: 'black' },
+]}
 
 export default function RootLayout({
   children,

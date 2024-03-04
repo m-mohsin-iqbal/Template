@@ -26,17 +26,12 @@ import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
 import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
-import ProjectPGPrint from '/public/images/project-pgprint.png';
-import ProjectUpperhand from '/public/images/project-upperhand.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
-
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
 import AvatarEugen from '/public/images/avatar-eugen.png';
 import AvatarDummy from '/public/images/avatar-dummy.svg';
 
 import {
   ExperienceDetails,
-  ProjectDetails,
   TechDetails,
   TestimonialDetails,
 } from '@/lib/types';
@@ -56,12 +51,16 @@ export const NAV_LINKS = [
     href: '#about',
   },
   {
+    label: 'Experience',
+    href: '#experience',
+  },
+  {
     label: 'Work',
     href: '#work',
   },
   {
-    label: 'Testimonials',
-    href: '#testimonials',
+    label: 'Skills',
+    href: '#skills',
   },
   {
     label: 'Contact',
@@ -205,60 +204,6 @@ export const EXPERIENCES: ExperienceDetails[] = [
     startDate: new Date(2015, 11),
     endDate: new Date(2017, 4),
     summary: ['Worked as a full stack developer (React / Laravel).'],
-  },
-];
-
-export const PROJECTS: ProjectDetails[] = [
-  {
-    name: 'Upperhand',
-    description:
-      'Upper Hand was created by sports coaches to make sports training easier. Whether you conduct private and group lessons, host camps or clinics, or coach a team, Upper Hand allows you to configure the software to cater to your business offerings.',
-    url: 'https://upperhand.com',
-    previewImage: ProjectUpperhand,
-    technologies: [
-      'React',
-      'Typescript',
-      'Material UI',
-      'Redux',
-      'React Bootstrap',
-      'Styled Components',
-      'Immutable Js',
-      'Ruby on Rails'
-    ],
-  },
-  {
-    name: 'OntrackSend',
-    description:
-      "At PG Print, a prominent printing company recognized for its dedication to excellence and inventive solutions, my involvement centered around refining Ontrack Send. This product played a pivotal role in streamlining order placement and tracking, aligning with PG Print's commitment to leveraging modern technologies for superior printing solutions.",
-    url: 'https://www.pgprint.com/',
-    previewImage: ProjectPGPrint,
-    technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Material UI',
-      'Redux Toolkit',
-      'React Query',
-      'Storybook',
-      'monorepo'
-    ],
-  },
-  {
-    name: 'Pepehousing',
-    description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
-    technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
-      'React Query',
-      'Storybook',
-    ],
   },
 ];
 

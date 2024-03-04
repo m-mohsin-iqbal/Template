@@ -31,11 +31,13 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-              I&apos;m a full stack developer (React.js & Node.js) with a focus
-              on creating (and occasionally designing) exceptional digital
-              experiences that are fast, accessible, visually appealing, and
-              responsive. Even though I have been creating web applications for
-              over 7 years, I still love it as if it was something new.
+            I&apos;m a highly skilled Full-stack developer, specializing in the development of modern web applications with a primary focus on frontend excellence using React, Next.js, and TypeScript. My proficiency extends to designing complex UI components, managing data flows through Redux/Flux, and optimizing performance for seamless user experiences.
+            </Typography>
+            <Typography>
+            In addition to my frontend expertise, I bring comprehensive knowledge of AWS cloud services and deployment strategies, including proficiency in setting up CI/CD pipelines. My hands-on experience encompasses backend development using Node.js, Express, and Mongoose to construct high-performing server-side APIs.
+            </Typography>
+            <Typography>
+            Furthermore, I possess advanced skills in Python web scraping using Scrapy, showcasing my expertise in data extraction. Beyond technical capabilities, I have a keen understanding of customer business needs, allowing me to propose effective business solutions that align with their objectives. My ability to bridge the gap between technical excellence and business requirements ensures a holistic and impactful approach to web development.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
