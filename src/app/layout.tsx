@@ -13,9 +13,9 @@ import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
-const title = 'Mohsin Iqbal | Full Stack Developer From Lahore, Pakistan.';
+const title = 'Mohsin Iqbal | Full Stack Developer| React | Next |Node ';
 const description =
-  'A self-proclaimed developer who specializes in full stack development (React/Next.js & Node.js), from Lahore, Pakistan.';
+  'A seasoned full-stack developer excelling in React/Next.js and Node.js technologies, passionately committed to delivering robust web solutions.';
 const url = 'https://mohsindev.tech';
 
 export const metadata: Metadata = {
@@ -27,7 +27,8 @@ export const metadata: Metadata = {
     'Full Stack Developer',
     'React Developer',
     'Next.js Developer',
-    'Node.js Developer'
+    'Node.js Developer',
+    'MERN'
   ],
   creator: 'Mohsin Iqbal',
   openGraph: {

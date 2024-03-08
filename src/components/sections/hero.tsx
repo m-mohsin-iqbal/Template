@@ -31,13 +31,16 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography className='text-justify'>
-            I&apos;m a highly skilled Full-stack developer, specializing in the development of modern web applications with a primary focus on frontend excellence using React, Next.js, and TypeScript. My proficiency extends to designing complex UI components, managing data flows through Redux/Flux, and optimizing performance for seamless user experiences.
+            With over 4 years of experience, I am a seasoned Full-stack developer specializing in top-tier frontend development using React, Next.js, and TypeScript. Proficient in crafting intricate UI components, overseeing data flows with Redux/Flux, and optimizing performance, my expertise ensures a high-quality user experience.
             </Typography>
             <Typography className='text-justify'>
-            In addition to my frontend expertise, I bring comprehensive knowledge of AWS cloud services and deployment strategies, including proficiency in setting up CI/CD pipelines. My hands-on experience encompasses backend development using Node.js, Express, and Mongoose to construct high-performing server-side APIs.
+            In backend development, I excel in Node.js, Express, and Mongoose, contributing to high-performance server-side APIs within the MERN stack. Advanced Python web scraping skills with Scrapy highlight my data extraction expertise.
             </Typography>
             <Typography className='text-justify'>
-            Furthermore, I possess advanced skills in Python web scraping using Scrapy, showcasing my expertise in data extraction. Beyond technical capabilities, I have a keen understanding of customer business needs, allowing me to propose effective business solutions that align with their objectives. My ability to bridge the gap between technical excellence and business requirements ensures a holistic and impactful approach to web development.
+            Beyond technical prowess, I understand customer business needs, proposing effective solutions aligned with objectives. Bridging the gap between technical excellence and business requirements, I bring a holistic approach to web development.
+            </Typography>
+            <Typography className='text-justify'>
+            Additionally, I possess comprehensive knowledge of AWS cloud services, adept at deploying strategies, and skilled in setting up CI/CD pipelines.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
