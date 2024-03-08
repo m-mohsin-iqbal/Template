@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 import Header from '@/components/layout/header';
 import Footer from '@/components/layout/footer';
@@ -71,6 +72,7 @@ export default function RootLayout({
         <Providers>
           <Header />
           <SpeedInsights/>
+          <Analytics/>
           <main className="flex min-h-screen w-full flex-col">{children}</main>
           <Footer />
         </Providers>
