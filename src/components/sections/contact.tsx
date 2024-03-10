@@ -11,9 +11,10 @@ import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
 import useWindowSize from '@/hooks/use-window-size';
 import { copyTextToClipboard } from '@/lib/utils';
+import Link from 'next/link';
 
-let email = 'm.mohsin.iqbal@outlook.com';
-let phone = '+92 3486869545';
+let email = 'mohsiniqbaldev@gmail.com';
+let phone = '+92 3134611251';
 
 type CopyValue = 'email' | 'phone';
 
@@ -57,9 +58,7 @@ const ContactSection = () => {
         <div className="flex flex-col items-center md:gap-4">
           <div className="flex items-center gap-4 md:gap-5">
             <Mail className="h-6 w-6 md:h-8 md:w-8" />
-            {/* <Link href={`mailto:${email}`}> */}
-            <Typography variant="h2">{email}</Typography>
-            {/* </Link> */}
+            <Typography variant="h2" className='hover:text-blue-500'><Link href={`mailto:${email}`} target='_blank'>{email} </Link> </Typography>
             <IconButton
               size={width && width < 768 ? 'md' : 'lg'}
               onClick={() => handleCopyClick(email, 'email')}
